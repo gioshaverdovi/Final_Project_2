@@ -5,14 +5,13 @@
 }*/
 .sec1 {
 	margin-top: 56px;
-	height: 500px;
 }
 .img {
 	width: 400px;
 	height: 400px;
 	background-image: url(../photo/sec1photo.jpg);
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	border-radius: 50%;
 	border-style: solid;
 	border-color: red;
