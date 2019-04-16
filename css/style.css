@@ -98,3 +98,33 @@ nav {
 	height: 7px;
 	background-color: rgba(0, 0, 0, 0.8);
 }
+.city {
+	border: 7px solid;
+	border-color: white;
+	width: 290px;
+	height: 190px;
+	background-image: url(../photo/paris.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.city1 {
+	border: 7px solid;
+	border-color: white;
+	width: 290px;
+	height: 190px;
+	background-image: url(../photo/tbilisi.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.city2 {
+	border: 7px solid;
+	border-color: white;
+	width: 290px;
+	height: 190px;
+	background-image: url(../photo/venice.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
