@@ -88,3 +88,13 @@ nav {
 	border-radius: 20px;
 	transform: scale(1.03);
 }
+.LW {
+	font-size: 50px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+}
+.LW1 {
+	height: 7px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
