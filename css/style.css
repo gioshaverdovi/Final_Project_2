@@ -64,3 +64,14 @@ nav {
 	background-color: #2ba79f;
 	border-color: #2ba79f;
 }
+.sec2 {
+	padding-top: 100px;
+}
+.sec2title {
+	color: white;
+	font-size: 35px;
+}
+.sec2text {
+	color: white;
+	font-size: 20px;
+}
