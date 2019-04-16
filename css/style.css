@@ -9,8 +9,18 @@ nav {
 .bg {
 	background-color: #17a2b8a3;
 }
-.nav-link {
+.navbar-light .navbar-brand {
 	color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    border-radius: 3.25rem;
+	background-color: #2ba79f;
 }
 .sec1 {
 	margin-top: 56px;
