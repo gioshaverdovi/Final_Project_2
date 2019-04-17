@@ -128,3 +128,15 @@ nav {
 	padding-bottom: 70px;
 	background-color: #223e47;
 }
+.myform {
+	color: white;
+	transition-property: all;
+	transition-duration: 0.2s;
+}
+.myform:hover {
+	color: gray;
+	text-decoration: none;
+}
+.ic {
+	width: 20px;
+}
