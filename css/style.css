@@ -101,30 +101,21 @@ nav {
 .city {
 	border: 7px solid;
 	border-color: white;
+	border-radius: 10px;
 	width: 290px;
 	height: 190px;
-	background-image: url(../photo/paris.jpg);
+	filter: grayscale(100%);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	transition-property: all;
+	transition-duration: 0.3s;
 }
-.city1 {
-	border: 7px solid;
-	border-color: white;
-	width: 290px;
-	height: 190px;
-	background-image: url(../photo/tbilisi.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.pt {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
 }
-.city2 {
-	border: 7px solid;
-	border-color: white;
-	width: 290px;
-	height: 190px;
-	background-image: url(../photo/venice.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.city:hover {
+	filter: grayscale(0%);
+	transform: scale(1.02);
 }
