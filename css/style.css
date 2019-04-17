@@ -116,7 +116,7 @@ nav {
 	color: white;
 }
 .city:hover {
-	filter: grayscale(0%);
+	filter: grayscale(0);
 	transform: scale(1.02);
 	border-color: #17a2b8a3;
 }
