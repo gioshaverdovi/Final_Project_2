@@ -137,6 +137,12 @@ nav {
 	color: gray;
 	text-decoration: none;
 }
-.ic {
-	width: 20px;
+.fab {
+	font-size: 30px;
+	color: white;
+	transition-property: all;
+	transition-duration: 0.2s;
+}
+.fab:hover {
+	color: gray;
 }
