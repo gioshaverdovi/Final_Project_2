@@ -53,18 +53,6 @@ nav {
 	max-width: 500px;
 	font-size: 20px;
 }
-.btn-success {
-	background-color: transparent;
-}
-.btn {
-	border-radius: 3.25rem;
-	border: 2px solid transparent;
-	border-color: #2ba79f;
-}
-.btn:hover {
-	background-color: #2ba79f;
-	border-color: #2ba79f;
-}
 .sec2 {
 	padding-top: 100px;
 }
@@ -84,6 +72,7 @@ nav {
 	transition-duration: 0.3s;
 }
 .bg1:hover {
+	cursor: pointer;
 	background-color: #17a2b8a3;
 	border-radius: 20px;
 	transform: scale(1.03);
@@ -151,4 +140,26 @@ nav {
 	font-size: 45px;
 	color: #757b7d;
 	cursor: pointer;
+}
+.sec4 {
+	background-image: url(../photo/travel.jpg);
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mybtn {
+	background-color: transparent;
+	border-radius: 3.25rem;
+	border: 2px solid;
+	border-color: #2ba79f;
+	transition-property: all;
+	transition-duration: 0.2s;
+}
+.mybtn:hover {
+	background-color: #2ba79f;
+	border-color: #2ba79f;
+}
+.travel h1, p, button{
+	color: white;
 }
