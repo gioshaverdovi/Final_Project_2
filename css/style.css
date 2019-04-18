@@ -129,6 +129,7 @@ nav {
 	background-color: #223e47;
 }
 .myform {
+	cursor: pointer;
 	color: white;
 	transition-property: all;
 	transition-duration: 0.2s;
@@ -149,3 +150,5 @@ nav {
 .pay i {
 	font-size: 45px;
 	color: #757b7d;
+	cursor: pointer;
+}
