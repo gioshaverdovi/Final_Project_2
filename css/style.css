@@ -152,16 +152,3 @@ nav {
 	color: #757b7d;
 	cursor: pointer;
 }
-.inst {
-	width: 400px;
-	height: 200px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.piano {
-	transition-property: all;
-}
-.piano:hover .guitar{
-	color: red;
-}
